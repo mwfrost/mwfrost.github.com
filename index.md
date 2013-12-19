@@ -10,7 +10,6 @@ tagline: Matt Frost
 <div class="row">
 <div class="span6">
 <h3>Projects</h3>
-<p>include follows</p>
 {% include projects.md %}
 </div>
   <div class="span6">
