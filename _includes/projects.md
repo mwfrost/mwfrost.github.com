@@ -1,4 +1,4 @@
-from /includes/ folder
+<!--from /includes/ folder-->
 
 [Ongoing analysis of US mine safety data](https://github.com/mwfrost/MSHA) 
 
