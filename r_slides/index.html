@@ -1,0 +1,251 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>An Introduction to Script-Based Analysis with R</title>
+
+		<meta name="description" content="An Introduction to Script-Based Analysis with R">
+		<meta name="author" content="Matt Frost">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<link rel="stylesheet" href="css/reveal.min.css">
+		<link rel="stylesheet" href="css/theme/default.css" id="theme">
+
+		<!-- For syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- If the query includes 'print-pdf', use the PDF print sheet -->
+		<script>
+			document.write( '<link rel="stylesheet" href="css/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">' );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+
+				<section>
+					<h1>Stop Clicking</h1>
+					<h2>Start typing.</h2>
+					<p>
+						A tutorial by Matt Frost, <br/>Charlottesville, Virginia
+					</p>
+				</section>
+
+				<section>
+					<h2>What Do We Mean by "Analysis?"</h2>
+					<p>
+						Usually we're referring to the conversion of recorded data (information) into knowledge through <i>transformation</i> and <i>presentation</i>. 
+					</p>
+
+					<aside class="notes">
+						I'd like to quickly establish a disciplinary basis for what we're talking about when we describe our own analytical work. 
+					</aside>
+				</section>
+
+				<section>
+					<h2>Transformation</h2>
+					<ul>
+						<li>Corrections</li>
+						<li>Summaries</li>
+						<li>Estimates</li>
+						<li>Simulations</li>
+					</ul>
+				</section>
+
+				<section>
+					<h2>Presentation</h2>
+					<ul>
+						<li>Tables</li>
+						<li>Figures</li>
+						<li>Stories</li>
+					</ul>
+				</section>
+
+				<section>
+					<h2>Tools</h2>
+					<ul>
+						<li>Excel (pivot tables, "what-if" scenarios, etc.)</li>
+						<li>MS Access (GROUP BY queries, reports, etc.)</li>
+					</ul>
+				</section>
+
+				<section>
+					<h2>Typical "Clicking" Workflow</h2>
+					<ul>
+						<li>Extract data</li>
+						<li>Correct mistakes by editing table cells</li>
+						<li>Click on a sequence of menu items and command buttons</li>
+						<li>Use "Save as..." to preserve the output</li>
+					</ul>
+				</section>
+
+				<section>
+					<h2>Now, do it again</h2>
+					<h4 class="fragment">...but with slightly different source data.</h4>
+					<h4 class="fragment">...or with slightly different assumptions to the model.</h4>
+					<h4 class="fragment">...or with a different variable of interest.</h4>
+					<p class="fragment">Get the idea?</p>
+				</section>
+
+				<section>
+					<h2>Excel Errors, Ripped <br/>from the Headlines</h2>
+					<img src="./reinhart_rogoff_coding_error_0.png" alt="Reinhart & Rogoff's coding error"/>
+					<p>Via nextnewdeal.net</p>
+				</section>
+
+				<section>
+					<h2>If only...</h2>
+					<img src="./supercomputer.jpg" alt="Supercomputer"/>
+				</section>
+
+				<section>
+					<h2>If only...</h2>
+					<p>...there were some way to tell computers to repeat a set of tasks.</p>
+					<p>Some way to execute a "program" of instructions...</p>
+					<p>Some sort of "language" in which those instructions might be given...</p>
+				</section>
+
+				<section>
+					<h2>STOP!</h2>
+					<p>"I'm not a programmer!"</p>
+					<img src="./hp.jpg" alt="Hot Pocket"/>
+				</section>
+
+				<section>
+					<h2> </h2>
+					<p>You aren't an accountant, either, but you seem to use a lot of spreadsheets.</p>
+					<img src="./lotus.png" alt="Lotus 1-2-3"/>
+				</section>
+
+				<section>
+					<h2>Advantages of Scripted Analysis</h2>
+					<ul>
+						<li>Others can reproduce the process</li>
+						<li>It's more transparent</li>
+						<li>You can re-use your own components</li>
+					</ul>
+				</section>
+
+				<section>
+					<h2>Enter R</h2>
+					<p>"R is an integrated suite of software facilities for data manipulation, calculation and graphical display."</p>
+					<img width="500" , src="./console.png" alt="console"/>	
+					<p>The finest command-line interface 1992 has to offer.</p>				
+				</section>
+
+
+				<section>
+					<h2>RStudio</h2>
+					<p>RStudio improves the R experience by combining the script editor, data browser, console, and other features into an Integrated Development Environment (IDE)</p>
+					<img  src="./RStudio.png" alt="RStudio"/>				
+				</section>
+
+				<section>
+					<h2>One Final Concept: <br/> the "Analyst's Notebook"</h2>
+					<p>Integrated source code and output</p>
+					<pre><code class="Markdown">
+# Using R for Analysis
+
+## Get R Ready for Analysis
+
+- `require()` loads an external package to offer tools not included in R's core functionality.
+- `ggplot2` is a package for graphing data that will exceed your wildest imagination
+- `lubridate` provides tools for making working with dates slightly less hateful
+- `plyr` allows extremely sophisticated grouping and summarizing
+
+```{r loadpackages}
+#  install.packages(c('ggplot2','lubridate','plyr'))
+require(ggplot2)			
+require(lubridate)			
+require(plyr)				
+```
+					</code></pre>
+
+					<aside class="notes"><p>The examples presented in this session use a set of tools that integrate functional code with annotations. The output is rendered as a self-contained HTML page of annotated results. I find this approach brilliant, but you may not be interested in applying it yourself. </p>	
+											<p>Learn more by Googling "RMarkdown" and then clicking the "no, I really want to search for what I just typed" link.	</p></aside>	
+				</section>
+
+
+				<section>
+					<h2>The Tutorial</h2>	
+					<img  src="./rockyhittingmeat.jpg" alt="training"/>
+				</section>
+
+				<section>
+					<h2>Launch the RStudio Application</h2>	
+					<p>Then open <code>tutorial.Rmd</code></p>
+				</section>
+
+				<section>
+					<h2>Setup</h2>
+					<h4>Set the working directory</h4>	
+						<img  src="./setwd.png" alt="Set working directory"/>
+					<p>The script needs to know where you have stored the source code and data tables. On my setup, it's in a folder called <code>C:\r_tutorial</code>, but yours might differ.</p>
+				</section>
+					
+				<section>
+					<h2>Go</h2>
+				</section>
+				
+				<section>
+					<h2>Wrapping Up</h2>
+					<p>BIG thanks to Hadley Wickham for the "typing vs clicking" hook, and for the world's greatest R packages.</p>
+					<ul>
+						<li>Questions?</li>
+						<li>Suggestions?</li>
+						<li>Observations?</li>
+					</ul>
+					<p>mwfrost@gmail.com</p>
+				</section>
+
+			</div>
+
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.min.js"></script>
+
+		<script>
+
+			// Full list of configuration options available here:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+				transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+
+				// Optional libraries used to extend on reveal.js
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/showdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+					{ src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+					// { src: 'plugin/search/search.js', async: true, condition: function() { return !!document.body.classList; } }
+					// { src: 'plugin/remotes/remotes.js', async: true, condition: function() { return !!document.body.classList; } }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>

@@ -2,8 +2,13 @@
 layout: post
 title: An Old Manuscript
 ---
-<p>By Franz Kafka</p>
-<p class="callout">This is my own translation of a Kafka story I couldn't find in English online.</p>
+
+This is my own translation of a Kafka story I couldn't find in English online.
+
+<!--more-->
+
+By Franz Kafka
+
 It's as if something had been neglected in the defense of our fatherland. So far, we haven't cared for it, and were pursuing our work; but the events of the last times made us concerned. 
 
 > Es ist, als wäre viel vernachlässigt worden in der Verteidigung unseres Vaterlandes. Wir haben uns bisher nicht darum gekümmert und sind unserer Arbeit nachgegangen; die Ereignisse der letzten Zeit machen uns aber Sorgen.
