@@ -6,7 +6,9 @@ tagline: Matt Frost's personal projects
 {% include JB/setup %}
 
 <div class="row">
-    <div class="span6">
+  <div class="span2">
+  </div>
+    <div class="span5">
     <h3>Projects</h3>
     <article class="markdown-body entry-content" itemprop="mainContentOfPage">
 
@@ -19,10 +21,12 @@ tagline: Matt Frost's personal projects
 
     </article>
     </div>
-      <div class="span6">
+      <div class="span5">
       <h3>Presentations</h3>
       <h4><a href="/r_slides/">&ldquo;Stop Clicking, Start Typing:&rdquo; an introduction to scripted analysis</a></h4>
       <a href="/r_slides/"><img src="/assets/slide_title.png" alt="Title Slide from R Tutorial"></a>
+      <h3>My Resume</h3>
+      <p>Available as a pdf <a href="/assets/MattFrostResume.pdf">here.</a></p>
       <h3>Writing</h3>
       {% for post in site.posts %}
         <li><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a>&nbsp;{{ post.excerpt }}</li>
