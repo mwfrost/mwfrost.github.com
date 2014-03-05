@@ -1,0 +1,1 @@
+rsync -avz ./_site/ mwfrost@162.243.198.35:/var/www/
