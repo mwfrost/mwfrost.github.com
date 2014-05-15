@@ -1,1 +1,1 @@
-rsync -avz ./_site/ mattfrost@waverly.textdrive.us:~/domains/mwfrost.com/web/public/
+rsync -avz ./_site/ mwfrost@162.243.198.35:/var/www/
