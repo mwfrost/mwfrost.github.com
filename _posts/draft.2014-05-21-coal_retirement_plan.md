@@ -1,4 +1,4 @@
-> The following is a very rough draft of an idea I've been discussing on twitter, posted here for reference and continued conversation. I'll eventually clean it up and put it on my own site.
+> The following is a very rough draft of an idea I've been discussing on twitter, posted here for reference and continued conversation. 
 
 I am a carbon mitigation skeptic. That is, I doubt the social and technological tools at our disposal can avert the next hundred years of likely anthropogenic climate change. Without a breakthrough in energy production, free CO<sub>2</sub> capture, or both, atmospheric concentrations of CO<sub>2</sub> will remain high enough to continue to force global warming. 
 
@@ -18,13 +18,18 @@ The U.S. government should borrow {$x} from citizens of the year 2120 and use th
 
 Replacing coal-fired electric generation with natural gas builds on an existing trend: thanks to the shale gas boom and recent regulations restricting coal, the shift from coal to natural gas [is already underway][wvcoal] in the U.S. Additional regulations, like [treating power plant ash as a hazardous waste](http://www.regulations.gov/#!docketDetail;D=EPA-HQ-RCRA-2009-0640), or the [monitoring and control of mercury emissions](http://www.epa.gov/mats/actions.html), are likely to nudge the relative price of coal higher still. Since natural gas has [about half the carbon content of coal per unit of energy](http://www.eia.gov/todayinenergy/detail.cfm?id=7890), the switch to gas reduces the country's carbon intensity, allowing us to generate the same amount of economic output for fewer tons of CO<sub>2</sub>. There's [nothing innately irreversible][coalclawsback] about this; natural gas prices could rebound and coal could regin some of its lost market share. A government-induced shock to coal prices, though, could lock in this domestic shift, perhaps permanently. 
 
+### Comparability with alternate carbon abatement methods
+
+### The condition of Federal leasing programs
+
+Unmined coal is 
+
 ### Financing the buyout
 
 For the purposes of this proposal, I am assuming that the intermittent and perpetually-deferred political impetus for action on climate change can somehow be converted to a pool of debt-funded federal spending. If the damage from climate change is as severe as the establishment consensus argues, future Americans will not begrudge us this investment.
 
 This is, of course, a rhetorical cop-out, but it's worth considering which financial resources are most closely associated with a political interest in mitigating carbon emissions. The fact that a carbon tax would fall on those who emit the most carbon is both an obvious advantage to such a tax and the source of its fatal political opposition. The same pundits and politicians who support carbon mitigation, though, also enjoy an extremely high tolerance for public debt expenditures, so a debt-financed solution to carbon emissions would align these two broadly congruent preferences. 
 
-Unmined coal is 
 
 ### Coalitions, for and against
 
