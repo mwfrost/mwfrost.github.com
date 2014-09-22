@@ -1,4 +1,10 @@
-> The following is a very rough draft of an idea I've been discussing on twitter, posted here for reference and continued conversation. 
+---              
+layout: post
+title: Coal Retirement Plan
+---
+
+A very rough draft of an idea I've been discussing on twitter, posted here for reference and continued conversation. 
+<!--more-->
 
 I am a carbon mitigation skeptic. That is, I doubt the social and technological tools at our disposal can avert the next hundred years of likely anthropogenic climate change. Without a breakthrough in energy production, free CO<sub>2</sub> capture, or both, atmospheric concentrations of CO<sub>2</sub> will remain high enough to continue to force global warming. 
 
