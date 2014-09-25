@@ -4,7 +4,7 @@
  <title>MWFrost.com</title>
  <link href="http://mwfrost.github.io/" rel="self"/>
  <link href="http://mwfrost.github.io"/>
- <updated>2014-09-22T12:06:32-07:00</updated>
+ <updated>2014-09-25T12:59:06-07:00</updated>
  <id>http://mwfrost.github.io</id>
  <author>
    <name>Matt Frost</name>
@@ -39,6 +39,10 @@
 &lt;p&gt;Replacing coal-fired electric generation with natural gas builds on an existing trend: thanks to the shale gas boom and recent regulations restricting coal, the shift from coal to natural gas &lt;a href=&quot;http://www.npr.org/2012/07/14/156784701/miners-weather-the-slow-burn-of-coals-demise&quot; title=&quot;NPR: Miners Weather the Slow Burn of Coal&#39;s Demise&quot;&gt;is already underway&lt;/a&gt; in the U.S. Additional regulations, like &lt;a href=&quot;http://www.regulations.gov/#!docketDetail;D=EPA-HQ-RCRA-2009-0640&quot;&gt;treating power plant ash as a hazardous waste&lt;/a&gt;, or the &lt;a href=&quot;http://www.epa.gov/mats/actions.html&quot;&gt;monitoring and control of mercury emissions&lt;/a&gt;, are likely to nudge the relative price of coal higher still. Since natural gas has &lt;a href=&quot;http://www.eia.gov/todayinenergy/detail.cfm?id=7890&quot;&gt;about half the carbon content of coal per unit of energy&lt;/a&gt;, the switch to gas reduces the country’s carbon intensity, allowing us to generate the same amount of economic output for fewer tons of CO&lt;sub&gt;2&lt;/sub&gt;. There’s &lt;a href=&quot;http://rhg.com/notes/coal-claws-back&quot; title=&quot;Rhodium Group » Coal Claws Back&quot;&gt;nothing innately irreversible&lt;/a&gt; about this; natural gas prices could rebound and coal could regin some of its lost market share. A government-induced shock to coal prices, though, could lock in this domestic shift, perhaps permanently. &lt;/p&gt;
 
 &lt;h3 id=&quot;the-role-of-the-blm&quot;&gt;The role of the BLM&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/blm.jpeg&quot; alt=&quot;A dragline working in the Powder River Basin&quot; /&gt;&lt;/p&gt;
+
+&lt;p class=&quot;caption&quot;&gt;A dragline working in the Powder River Basin: BLM&lt;/p&gt;
 
 &lt;p&gt;The US federal government, through the Bureau of Land Management, is the &lt;a href=&quot;http://www.sourcewatch.org/index.php?title=Coal_reserves#Ownership_of_U.S._coal_reserves&quot; title=&quot;Important caveat on Wikipedia: &amp;ldquo;Note: Figure for U.S. Government is based on a National Mining Association calculation based on federal ownership of about one-third of the United States&#39; coal reserves of 264 billion short tons.&amp;rdquo;&quot;&gt;country’s largest coal owner&lt;/a&gt;, with &lt;a href=&quot;http://www.blm.gov/wo/st/en/prog/energy/coal_and_non-energy.print.html&quot;&gt;responsibility for 570 million acres of coal mineral estate&lt;/a&gt;. The BLM &lt;a href=&quot;http://www.blm.gov/wo/st/en/prog/more/climatechange.html&quot;&gt;already pays lip service&lt;/a&gt; to a carbon mitigation mission. It’s even “exploring the potential to sequester carbon dioxide in geologic formations beneath public lands.” Makes sense, no? Given the availability of better energy sources, sequestering that carbon with financial and legal instruments &lt;em&gt;before excavating and burning it&lt;/em&gt; makes even more sense. Creative legislators and regulators could develop a follow-on to the Federal Coal Leasing Amendments Act of 1976 (FCLAA), which amended Section 2 of the Mineral Leasing Act of 1920, and turn “carbon easement” into a type of coal lease, and integrate it into the BLM’s competitive leasing process. &lt;/p&gt;
 
@@ -78,11 +82,23 @@
 
 &lt;p&gt;How much money would this take? How much would it move prices?&lt;/p&gt;
 
+&lt;p&gt;I have taken some well-deserved grief on twitter for the absence of numbers in this proposal. As I explained, the necessary values for a back-of-the-envelope guess aren’t readily available, but I owe the reader some ballpark figures. Here are some tentative steps toward providing the variables that would make up an economic model of my plan.&lt;/p&gt;
+
+&lt;h4 id=&quot;in-situ-coal-prices&quot;&gt;In-Situ Coal Prices&lt;/h4&gt;
+
+&lt;p&gt;The cost of unmined coal isn’t published the way different index prices are, but the per-ton royalty rate paid by a mining company to the mineral owner is a good proxy. The royalty reflects the value of the coal before any downstream services like extraction or transportation have been performed. To compensate a mineral holder for rendering his or her resources unmineable, the retirement price of the coal would have to match or exceed the present value of the expected royalty income. &lt;/p&gt;
+
+&lt;p&gt;The &lt;a href=&quot;http://www.blm.gov/wo/st/en/prog/energy/coal_and_non-energy.print.html&quot;&gt;BLM charges 12% per ton of surface coal and 8% per ton of underground coal&lt;/a&gt;. A ton of &lt;a href=&quot;http://www.eia.gov/coal/news_markets/&quot;&gt;Powder River Basin coal that sells for $12&lt;/a&gt; will earn the federal government a $1.44 royalty payment. Using the EIA’s conversion factor again, that $1.44 could have sequestered 1.7 metric tonnes of CO&lt;sub&gt;2&lt;/sub&gt;. Terrapass, remember, charges &lt;a href=&quot;http://www.terrapass.com/shop/busines-carbon-offsets/&quot;&gt;$13.12 per tonne&lt;/a&gt;.&lt;/p&gt;
+
 &lt;h3 id=&quot;updates&quot;&gt;Updates:&lt;/h3&gt;
 
 &lt;p&gt;7/3/2013 Updated 2012 export number, added some questions to the last two sections &lt;/p&gt;
 
 &lt;p&gt;5/21/2014 Added some references to low in-situ coal prices and rhetorical reframing&lt;/p&gt;
+
+&lt;p&gt;9/25/2014 Two different publications mention my scheme today: &lt;a href=&quot;http://www.huffingtonpost.com/2014/09/25/fossil-fuel-divestment_n_5877282.html?utm_hp_ref=tw&quot;&gt;How Wall Street Really Is Failing The Planet,&lt;/a&gt; by &lt;a href=&quot;https://twitter.com/BenDWalsh&quot;&gt;Ben Walsh&lt;/a&gt; and &lt;a href=&quot;http://theweek.com/article/index/268685/this-plan-to-stop-global-warming-is-so-crazy-it-just-might-work&quot;&gt;This plan to stop global warming is so crazy it just might work,&lt;/a&gt; by &lt;a href=&quot;https://twitter.com/pegobry&quot;&gt;Pascal-Emmanuel Gobry&lt;/a&gt;. Momentum! &lt;/p&gt;
+
+&lt;p&gt;9/25/2014 Added a couple of paragraphs about royalty rates as price proxies&lt;/p&gt;
 
 </content>
  </entry>

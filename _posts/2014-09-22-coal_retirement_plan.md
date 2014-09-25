@@ -27,6 +27,10 @@ Replacing coal-fired electric generation with natural gas builds on an existing 
 
 ### The role of the BLM
 
+![A dragline working in the Powder River Basin]({{ site.url }}/assets/blm.jpeg)
+
+<p class="caption">A dragline working in the Powder River Basin: BLM</p>
+
 The US federal government, through the Bureau of Land Management, is the [country's largest coal owner](http://www.sourcewatch.org/index.php?title=Coal_reserves#Ownership_of_U.S._coal_reserves "Important caveat on Wikipedia: &ldquo;Note: Figure for U.S. Government is based on a National Mining Association calculation based on federal ownership of about one-third of the United States' coal reserves of 264 billion short tons.&rdquo;"), with [responsibility for 570 million acres of coal mineral estate](http://www.blm.gov/wo/st/en/prog/energy/coal_and_non-energy.print.html). The BLM [already pays lip service](http://www.blm.gov/wo/st/en/prog/more/climatechange.html) to a carbon mitigation mission. It's even "exploring the potential to sequester carbon dioxide in geologic formations beneath public lands." Makes sense, no? Given the availability of better energy sources, sequestering that carbon with financial and legal instruments _before excavating and burning it_ makes even more sense. Creative legislators and regulators could develop a follow-on to the Federal Coal Leasing Amendments Act of 1976 (FCLAA), which amended Section 2 of the Mineral Leasing Act of 1920, and turn "carbon easement" into a type of coal lease, and integrate it into the BLM's competitive leasing process. 
 
 A new market for BLM's coal would arrive just in time, since the agency [can't seem to find any buyers](http://www.desmogblog.com/2013/09/19/end-powder-river-basin-coal-leases-second-auction-two-months-fails-seal-mining-deal) at current prices. A single bid of $0.21 per ton for a tract of Powder River Basin coal was rejected in 2013, so the coal will stay in the ground for another year. 
@@ -67,11 +71,23 @@ Gas prices are volatile, and could become higher than coal if the unconventional
 
 How much money would this take? How much would it move prices?
 
+I have taken some well-deserved grief on twitter for the absence of numbers in this proposal. As I explained, the necessary values for a back-of-the-envelope guess aren't readily available, but I owe the reader some ballpark figures. Here are some tentative steps toward providing the variables that would make up an economic model of my plan.
+
+#### In-Situ Coal Prices
+
+The cost of unmined coal isn't published the way different index prices are, but the per-ton royalty rate paid by a mining company to the mineral owner is a good proxy. The royalty reflects the value of the coal before any downstream services like extraction or transportation have been performed. To compensate a mineral holder for rendering his or her resources unmineable, the retirement price of the coal would have to match or exceed the present value of the expected royalty income. 
+
+The [BLM charges 12% per ton of surface coal and 8% per ton of underground coal](http://www.blm.gov/wo/st/en/prog/energy/coal_and_non-energy.print.html). A ton of [Powder River Basin coal that sells for $12](http://www.eia.gov/coal/news_markets/) will earn the federal government a $1.44 royalty payment. Using the EIA's conversion factor again, that $1.44 could have sequestered 1.7 metric tonnes of CO<sub>2</sub>. Terrapass, remember, charges [$13.12 per tonne](http://www.terrapass.com/shop/busines-carbon-offsets/).
+
 ### Updates:
 
 7/3/2013 Updated 2012 export number, added some questions to the last two sections 
 
 5/21/2014 Added some references to low in-situ coal prices and rhetorical reframing
+
+9/25/2014 Two different publications mention my scheme today: [How Wall Street Really Is Failing The Planet,](http://www.huffingtonpost.com/2014/09/25/fossil-fuel-divestment_n_5877282.html?utm_hp_ref=tw) by [Ben Walsh](https://twitter.com/BenDWalsh) and [This plan to stop global warming is so crazy it just might work,](http://theweek.com/article/index/268685/this-plan-to-stop-global-warming-is-so-crazy-it-just-might-work) by [Pascal-Emmanuel Gobry](https://twitter.com/pegobry). Momentum! 
+
+9/25/2014 Added a couple of paragraphs about royalty rates as price proxies
 
 [BLMleases]: http://www.desmogblog.com/2013/09/19/end-powder-river-basin-coal-leases-second-auction-two-months-fails-seal-mining-deal "An End to Powder River Basin Coal Leases? Second Auction in Two Months Fails to Seal a Mining Deal"
 
@@ -83,7 +99,11 @@ How much money would this take? How much would it move prices?
 
 [co2factors]: http://www.eia.gov/coal/production/quarterly/co2_article/co2.html "Carbon Dioxide Emission Factors for Coal"
 
+[eiareserves]: http://www.eia.gov/energyexplained/index.cfm?page=coal_reserves "How Much Coal is Left"
+
 [wvcoal]: http://www.npr.org/2012/07/14/156784701/miners-weather-the-slow-burn-of-coals-demise "NPR: Miners Weather the Slow Burn of Coal's Demise"
+
+[taxingprimer]: http://www.wvpolicy.org/downloads/CoalReserveTaxationPrimer-FINAL-5-19-09%20-%20FINAL.pdf "Taxing West Virginia's Coal Reserves: A Primer"
 
 [buycoal]: http://insight.kellogg.northwestern.edu/index.php/m/article/buy_coal/ "Buy Coal? Purchasing the dirty fossil fuel could help fight climate change"
 
