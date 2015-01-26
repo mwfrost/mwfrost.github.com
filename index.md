@@ -6,7 +6,7 @@ tagline: Matt Frost's personal projects
 {% include JB/setup %}
 
 <div class="row">
-  <div class="span2">
+  <div class="span1">
   </div>
     <div class="span5">
     <h3>Projects</h3>

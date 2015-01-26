@@ -7,3 +7,7 @@ Thumbs.db
 
 .rbenv-version
 .rvmrc
+
+*.plist
+
+_posts/.UlyssesRoot
