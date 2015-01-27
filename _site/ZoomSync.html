@@ -61,20 +61,85 @@
   <div class="span12">
     
 
-<ul class="tag_box inline">
-  
-  
+<script src='https://api.tiles.mapbox.com/mapbox.js/v2.1.5/mapbox.js'></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/smoothness/jquery-ui.css" />
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
+<link href='https://api.tiles.mapbox.com/mapbox.js/v2.1.5/mapbox.css' rel='stylesheet' />
+<style>
+  body { margin:20; padding:0; }
+  #slider { margin: 10px; width:500px;}
+  #zoom {position:absolute;  height:450px; width:120px;}
+  #map1 { height:450px; width:450px; }
+  #map2 { height:450px; width:450px; }
+</style>
+</head>
+
+<body>
+
+<script>
+  $(function() {
+        $( "#location1" ).val( "New York" );
+		$( "#location2" ).val( "Vancouver" );
+    });
+zoomlevel = 5;
+coords1 = [40.7833, -73.9667];
+coords2 = [49.3, -123.14];
 
 
-  
-    
-  
+</script>
+
+<div id="slider"></div>
+ 
+<p>
+  <label for="zoomlevel">Zoom Level:</label>
+  <input type="text" id="zoomlevel" readonly style="border:0; font-weight:bold;">
+</p>
+
+<div class="row">
+	<div class="span5">
+		<div id='map1'></div>
+	</div>
+
+	<div class="span5">
+		<div id='map2'></div>
+	</div>
+</div>
+<script>
+	L.mapbox.accessToken = 'pk.eyJ1IjoibXdmcm9zdCIsImEiOiJLam9XNG9zIn0.jD_jyAQ0DoFpmeNLdTn-YQ';
+	map1 = L.mapbox.map('map1', 'examples.map-i86nkdio', {
+	  zoomControl: false
+	}
+	).setView(coords1, 5);
+	geocoder1 = L.mapbox.geocoderControl('mapbox.places');
+	geocoder1.addTo(map1);
 
 
-</ul>
+		L.mapbox.accessToken = 'pk.eyJ1IjoibXdmcm9zdCIsImEiOiJLam9XNG9zIn0.jD_jyAQ0DoFpmeNLdTn-YQ';
+		map2 = L.mapbox.map('map2', 'examples.map-i86nkdio', {
+		  zoomControl: false
+		})
+	    .setView(coords2, 5);
+	    geocoder2 = L.mapbox.geocoderControl('mapbox.places');
+		geocoder2.addTo(map2);
 
 
 
+	$(function() {
+	    $( "#slider" ).slider({
+	      value:8,
+	      min: 1,
+	      max: 18,
+	      step: 1,
+	      slide: function( event, ui ) {
+	        zoomlevel = $( "#zoomlevel" ).val( ui.value );
+	         map1.setView(coords1, zoomlevel.val());
+			 map2.setView(coords2, zoomlevel.val());
+	      }
+	    });
+	   });
+
+</script>
 
 
   </div>
