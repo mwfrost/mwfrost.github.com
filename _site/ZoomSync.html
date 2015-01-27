@@ -86,7 +86,6 @@ zoomlevel = 5;
 coords1 = [40.7833, -73.9667];
 coords2 = [49.3, -123.14];
 
-
 </script>
 
 <div id="slider"></div>
@@ -99,10 +98,12 @@ coords2 = [49.3, -123.14];
 <div class="row">
 	<div class="span5">
 		<div id='map1'></div>
+		<pre id='location1' class='ui-output'>New York</pre>
 	</div>
 
 	<div class="span5">
 		<div id='map2'></div>
+		<pre id='location2' class='ui-output'>Vancouver</pre>
 	</div>
 </div>
 <script>
@@ -111,7 +112,9 @@ coords2 = [49.3, -123.14];
 	  zoomControl: false
 	}
 	).setView(coords1, 5);
-	geocoder1 = L.mapbox.geocoderControl('mapbox.places');
+	geocoder1 = L.mapbox.geocoderControl('mapbox.places',{
+        autocomplete: false
+    });
 	geocoder1.addTo(map1);
 
 
@@ -120,10 +123,10 @@ coords2 = [49.3, -123.14];
 		  zoomControl: false
 		})
 	    .setView(coords2, 5);
-	    geocoder2 = L.mapbox.geocoderControl('mapbox.places');
+	    geocoder2 = L.mapbox.geocoderControl('mapbox.places',{
+        autocomplete: false
+    });
 		geocoder2.addTo(map2);
-
-
 
 	$(function() {
 	    $( "#slider" ).slider({
@@ -139,6 +142,21 @@ coords2 = [49.3, -123.14];
 	    });
 	   });
 
+// Listen for the `found` result and display the first result
+// in the output container. For all available events, see
+// https://www.mapbox.com/mapbox.js/api/v2.1.5/l-mapbox-geocodercontrol/#section-geocodercontrol-on
+		geocoder1.on('select', function(res) {
+		    coords1 = [res.feature.center[1],res.feature.center[0]];
+		    location1.innerHTML = JSON.stringify(coords1);
+		    map1.setView(coords1, zoomlevel.val());
+		    map2.setView(coords2, zoomlevel.val());
+		});
+		geocoder2.on('select', function(res) {
+		    coords2 = [res.feature.center[1],res.feature.center[0]];
+		    location2.innerHTML = JSON.stringify(coords2);
+		    map1.setView(coords1, zoomlevel.val());
+		    map2.setView(coords2, zoomlevel.val());
+		});
 </script>
 
 
