@@ -31,7 +31,7 @@
 
     <!-- atom & rss feed -->
  <!--   <link href="" type="application/atom+xml" rel="alternate" title="Sitewide ATOM Feed"> -->
-    <link href="/rss.xml" type="application/rss+xml" rel="alternate" title="Sitewide RSS Feed">
+    <link href="" type="application/rss+xml" rel="alternate" title="Sitewide RSS Feed">
 
   </head>
 
@@ -77,16 +77,11 @@
 
 <body>
 
-<script>
-  $(function() {
-        $( "#location1" ).val( "New York" );
-		$( "#location2" ).val( "Vancouver" );
-    });
-zoomlevel = 5;
-coords1 = [40.7833, -73.9667];
-coords2 = [49.3, -123.14];
+<h3>Synchronized Map Zooming</h3>
 
-</script>
+<p>Type a place name in each map's search box. Select one of the results in each map, then change the slider position to see the locations at a common scale.</p>
+<p><a href="https://github.com/mwfrost/mwfrost.github.com/blob/master/ZoomSync.html">Source code.</a></p>
+<p>Customer Service: <a href='https://twitter.com/mattfrost'>@mattfrost</a></p>
 
 <div id="slider"></div>
  
@@ -107,6 +102,14 @@ coords2 = [49.3, -123.14];
 	</div>
 </div>
 <script>
+  $(function() {
+        $( "#location1" ).val( "New York" );
+		$( "#location2" ).val( "Vancouver" );
+    });
+zoomlevel = 5;
+coords1 = [40.7833, -73.9667];
+coords2 = [49.3, -123.14];
+
 	L.mapbox.accessToken = 'pk.eyJ1IjoibXdmcm9zdCIsImEiOiJLam9XNG9zIn0.jD_jyAQ0DoFpmeNLdTn-YQ';
 	map1 = L.mapbox.map('map1', 'examples.map-i86nkdio', {
 	  zoomControl: false

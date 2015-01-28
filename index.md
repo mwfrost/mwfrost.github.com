@@ -11,7 +11,8 @@ tagline: Matt Frost's personal projects
     <div class="span5">
     <h3>Projects</h3>
     <article class="markdown-body entry-content" itemprop="mainContentOfPage">
-
+    <h4><a href="/ZoomSync.html">Zoom Sync</a> </h4>
+    <p>Multiple maps at a common scale</p>
     <h4><a href="https://github.com/mwfrost/MSHA">Ongoing analysis of US mine safety data</a> </h4>
     <img src="/assets/msha.png" alt="Experimental mine safety analysis">
     <h4><a href="https://github.com/mwfrost/insurance_estimator">Monte Carlo analysis for household health care costs</a> </h4>
