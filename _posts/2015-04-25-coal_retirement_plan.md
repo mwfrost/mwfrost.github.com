@@ -2,6 +2,7 @@
 layout: post
 title: Coal Retirement Plan
 updates:
+- 11/2/2015 My friend Michael Brendan Dougherty [has helpfully explored the political appeal of this scheme](http://theweek.com/articles/585982/heres-climate-change-solution-that-doesnt-freak-every-conservative).
 - 10/29/2015 Welcome, Atlantic readers! Big thanks to Robinson Meyer for mentioning this idea in his feature article, [Buy Coal Now!](http://www.theatlantic.com/technology/archive/2015/10/every-climate-concerned-billionaire-should-do-this-to-save-the-world/413020/)
 - 9/25/2014 Two different publications mention my scheme today, [How Wall Street Really Is Failing The Planet,](http://www.huffingtonpost.com/2014/09/25/fossil-fuel-divestment_n_5877282.html?utm_hp_ref=tw) by [Ben Walsh](https://twitter.com/BenDWalsh) and [This plan to stop global warming is so crazy it just might work,](http://theweek.com/article/index/268685/this-plan-to-stop-global-warming-is-so-crazy-it-just-might-work) by [Pascal-Emmanuel Gobry](https://twitter.com/pegobry). Momentum!
 - 9/25/2014 Added a couple of paragraphs about royalty rates as price proxies
