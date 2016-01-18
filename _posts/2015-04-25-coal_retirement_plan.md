@@ -2,6 +2,7 @@
 layout: post
 title: Coal Retirement Plan
 updates:
+- 1/15/2016 The Department of the Interior [announces](https://www.doi.gov/pressreleases/secretary-jewell-launches-comprehensive-review-federal-coal-program) a Programmatic Environmental Impact Statement (PEIS) to review the federal coal program. This freezes all new leases while the review is under way.
 - 10/30/2015 MIT's Technology Review [mentions the scheme favorably.](http://www.technologyreview.com/view/543041/recommended-energy-reads-this-week/)
 - 10/15/2015 [This Grist.org post](http://grist.org/news/greenpeace-wants-to-keep-coal-in-the-ground-by-buying-up-mines-and-power-plants/) about Greenpeace buying German lignite is kind enough to link to this page.
 - 11/2/2015 My friend Michael Brendan Dougherty [has helpfully explored the political appeal of this scheme](http://theweek.com/articles/585982/heres-climate-change-solution-that-doesnt-freak-every-conservative).
