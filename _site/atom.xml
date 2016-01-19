@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
- 
+
  <title>MWFrost.com</title>
  <link href="http://mwfrost.github.io/" rel="self"/>
  <link href="http://mwfrost.github.io"/>
- <updated>2016-01-18T12:43:32-08:00</updated>
+ <updated>2016-01-19T07:31:26-08:00</updated>
  <id>http://mwfrost.github.io</id>
  <author>
    <name>Matt Frost</name>
@@ -186,5 +186,5 @@
 </content>
  </entry>
  
- 
+
 </feed>
