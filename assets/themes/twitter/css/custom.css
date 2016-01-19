@@ -4,6 +4,17 @@ padding: 0px;
 margin: 0px;
 }
 
+.jumbotron h1 {
+  text-align:center;
+  font-size: 40px;
+}
+.jumbotron {
+border-bottom:1px solid #dbdbdb;
+padding-top: 10px;
+padding-bottom: 10px;
+background-color: transparent;
+}
+
 h1 { font-family: 'Crete Round', sans-serif; font-weight: 700; }
 h2 { font-family: 'Crete Round', sans-serif; font-weight: 700; }
 h3 { font-family: 'Crete Round', sans-serif; font-weight: 400; }
@@ -11,7 +22,7 @@ h4 { font-family: 'Volkhov', sans-serif; font-weight: 400; }
 /*body{font-family:'Volkhov',Helvetica,Arial,sans-serif;font-weight: 400; }*/
 
 blockquote {
-  font-family: 'Volkhov', sans-serif; font-weight: 400; 
+  font-family: 'Volkhov', sans-serif; font-weight: 400;
   background: #f9f9f9;
   border-left: 10px solid #ccc;
   margin: 1.5em 10px;

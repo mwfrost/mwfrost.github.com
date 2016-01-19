@@ -3,7 +3,7 @@
 </div>
 
 <div class="row-fluid post-full">
-  <div class="span8">
+  <div class="col-md-8">
 
     <div class="date">
       <span>{{ page.date | date_to_long_string }}</span>
@@ -29,8 +29,8 @@
   {% endunless %}
 
     <hr>
-    <div class="pagination">
-      <ul>
+    <nav>
+      <ul  class="pagination">
       {% if page.previous %}
         <li class="prev"><a href="{{ BASE_PATH }}{{ page.previous.url }}" title="{{ page.previous.title }}">&larr; Previous</a></li>
       {% else %}
@@ -43,16 +43,18 @@
         <li class="next disabled"><a>Next &rarr;</a>
       {% endif %}
       </ul>
-    </div>
+    </nav>
     <hr>
     {% include JB/comments %}
   </div>
-  <div class="span3">
+  <div class="col-md-4">
     {% if page.updates %}
       <h3>Updates</h3>
       {% for update in page.updates %}
       <div>{{ update | markdownify }}</div>
       {% endfor %}
     {% endif %}
+  </div>
+  <div class="row">
   </div>
 </div>

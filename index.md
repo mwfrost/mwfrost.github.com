@@ -6,9 +6,9 @@ tagline: Matt Frost's personal projects
 {% include JB/setup %}
 
 <div class="row">
-  <div class="span1">
-  </div>
-    <div class="span5">
+<!--  <div class="span1"> -->
+<!--  </div>  -->
+  <div class="col-md-6">
     <h3>Projects</h3>
     <article class="markdown-body entry-content" itemprop="mainContentOfPage">
     <h4><a href="/ZoomSync.html">Zoom Sync</a> </h4>
@@ -27,8 +27,8 @@ tagline: Matt Frost's personal projects
         <img src="/assets/epri.png" alt="EPRI analysis">
 
     </article>
-    </div>
-      <div class="span5">
+  </div>
+  <div class="col-md-6">
       <h3>Presentations</h3>
       <h4><a href="/r_slides/">&ldquo;Stop Clicking, Start Typing:&rdquo; an introduction to scripted analysis</a></h4>
       <a href="/r_slides/"><img src="/assets/slide_title.png" alt="Title Slide from R Tutorial"></a>
@@ -40,5 +40,5 @@ tagline: Matt Frost's personal projects
       {% for post in site.posts %}
         <li><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a>&nbsp;{{ post.excerpt }}</li>
       {% endfor %}
-      </div>
+    </div>
 </div>
