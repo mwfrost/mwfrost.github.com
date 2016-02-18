@@ -1,7 +1,7 @@
 ---
 layout: page
 title: MWFrost.com
-tagline: Matt Frost's personal projects
+tagline: Analysis and Communication
 ---
 {% include JB/setup %}
 
