@@ -1,13 +1,13 @@
 
-http://mwfrost.github.io/ZoomSync.html
-http://mwfrost.github.io/archive.html
+http://mwfrost.github.io/ZoomSync
+http://mwfrost.github.io/archive
 http://mwfrost.github.io/atom.xml
-http://mwfrost.github.io/categories.html
-http://mwfrost.github.io/index.html
-http://mwfrost.github.io/pages.html
+http://mwfrost.github.io/categories
+http://mwfrost.github.io/
+http://mwfrost.github.io/pages
 http://mwfrost.github.io/rss.xml
 http://mwfrost.github.io/sitemap.txt
-http://mwfrost.github.io/tags.html
+http://mwfrost.github.io/tags
 
 http://mwfrost.github.io/coal_retirement_plan
 http://mwfrost.github.io/an-old-manuscript

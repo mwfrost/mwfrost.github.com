@@ -14,10 +14,9 @@ tagline: Analysis and Communication
     <h4><a href="/ZoomSync.html">Zoom Sync</a> </h4>
     <p>View two maps of different places at a common scale</p>
     <img src="/assets/zoomsync.png" alt="Screenshot of two maps displayed side by side">
-    <h4><a href="https://frost.shinyapps.io/insurance_estimator/">Monte Carlo analysis for household health care costs</a> </h4>
-    <p>Simulate household health care costs across different insurance scenarios</p>
+    <h4><a href="https://mwfrost.com/insurance_estimator/insurance_angular.html">Monte Carlo analysis for household health insurance costs</a> </h4>
+    <p>Compare the costs of different health insurance plans across hundreds of scenarios</p>
       <img src="/assets/insurance.png" alt="Insurance Cost Distribution">
-      <img src="/assets/whisker_plot.png" alt="Insurance Cost Box-and-Whisker Plots">
       <p><a href="https://github.com/mwfrost/insurance_estimator">Source code here.</a></p>
     <h4><a href="https://github.com/mwfrost/MSHA">Analysis of US mine safety data</a> </h4>
     <p>Using R and python to examine a large file of mine inspection records</p>

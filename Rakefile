@@ -46,7 +46,7 @@ task :deploy do
   user = 'mwfrost.com'
   server = '162.243.198.35'
   path = '/home/mwfrost.com/public_html'
-  sh "rsync -rtzh --delete _site/ #{user}@#{server}:#{path}"
+  sh "rsync -rtzh --exclude EPA_presentation --exclude insurance_estimator --delete _site/ #{user}@#{server}:#{path}"
   puts 'Website is now published!'
 end
 

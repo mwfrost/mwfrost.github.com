@@ -16,12 +16,12 @@
     <![endif]-->
 
     <!-- Le styles -->
-    <link href="/assets/themes/twitter/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-<!--    <link href="/assets/themes/twitter/bootstrap/css/bootstrap.2.2.2.min.css" rel="stylesheet"> -->
-    <link href="/assets/themes/twitter/css/style.css?body=1" rel="stylesheet" type="text/css" media="all">
-    <link href="/assets/themes/twitter/css/custom.css?body=1" rel="stylesheet" type="text/css" media="all">
-    <link href='http://fonts.googleapis.com/css?family=Crete+Round:400,400italic' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Volkhov:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
+    <link href="/assets/themes//bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<!--    <link href="/assets/themes//bootstrap/css/bootstrap.2.2.2.min.css" rel="stylesheet"> -->
+    <link href="/assets/themes//css/style.css?body=1" rel="stylesheet" type="text/css" media="all">
+    <link href="/assets/themes//css/custom.css?body=1" rel="stylesheet" type="text/css" media="all">
+    <link href='https://fonts.googleapis.com/css?family=Crete+Round:400,400italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Volkhov:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
     <!-- Le fav and touch icons -->
   <!-- Update these with your own images
     <link rel="shortcut icon" href="images/favicon.ico">
@@ -72,8 +72,8 @@
         <description>MWFrost.com - Matt Frost</description>
         <link>http://mwfrost.github.io</link>
         <link>http://mwfrost.github.io</link>
-        <lastBuildDate>2016-01-19T09:33:06-08:00</lastBuildDate>
-        <pubDate>2016-01-19T09:33:06-08:00</pubDate>
+        <lastBuildDate>2016-04-12T12:53:57-07:00</lastBuildDate>
+        <pubDate>2016-04-12T12:53:57-07:00</pubDate>
         <ttl>1800</ttl>
 
 
