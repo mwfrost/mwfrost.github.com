@@ -4,7 +4,7 @@
  <title>MWFrost.com</title>
  <link href="http://mwfrost.github.io/" rel="self"/>
  <link href="http://mwfrost.github.io"/>
- <updated>2016-06-29T10:53:57-07:00</updated>
+ <updated>2016-06-29T11:47:17-07:00</updated>
  <id>http://mwfrost.github.io</id>
  <author>
    <name>Matt Frost</name>
@@ -13,25 +13,18 @@
 
  
  <entry>
-   <title>Jekyll Introduction Draft</title>
-   <link href="http://mwfrost.github.io/lessons/jekyll-introduction-draft"/>
-   <updated>2016-06-29T10:53:57-07:00</updated>
-   <id>http://mwfrost.github.io/lessons/jekyll-introduction-draft</id>
-   <content type="html">
-&lt;p&gt;This is an example of a draft. Read more here: &lt;a href=&quot;http://jekyllrb.com/docs/drafts/&quot;&gt;http://jekyllrb.com/docs/drafts/&lt;/a&gt;&lt;/p&gt;
-</content>
- </entry>
- 
- <entry>
    <title>Space Is Scalar</title>
-   <link href="http://mwfrost.github.io/draft.2016-06-23-space-is-scalar"/>
-   <updated>2016-06-29T10:53:57-07:00</updated>
-   <id>http://mwfrost.github.io/draft.2016-06-23-space-is-scalar</id>
-   <content type="html">&lt;p&gt;&lt;img src=&quot;/assets/tower4.jpg&quot; alt=&quot;a cropped section of Pieter Bruegel the Elder&#39;s Tower of Babel&quot; /&gt;&lt;/p&gt;
+   <link href="http://mwfrost.github.io/space-is-scalar"/>
+   <updated>2016-06-29T00:00:00-07:00</updated>
+   <id>http://mwfrost.github.io/space-is-scalar</id>
+   <content type="html">&lt;p&gt;Reflections on a geospatial referencing tool.&lt;/p&gt;
+
+&lt;!--more--&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/tower4.jpg&quot; alt=&quot;a cropped section of Pieter Bruegel the Elder&#39;s Tower of Babel&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;✣ &lt;em&gt;Suppose you wanted to improve a language by increasing its richness indefinitely. We can get an idea of the enormous number of printed or written words that could be formed by different combinations of phonemes or letters, by envisaging the fact that from an alphabet of 23 letters we could construct 23^8^, i.e. about one hundred thousand million eight letter code words. This should allow us to replace each different sentence ever printed in the English language by different printed word so that this codeword (which would function as a verb) would cover what the sentence asserts. This millionfold enrichment of the English language would completely destroy it; not only because nobody could remember so many words, but for the more important reason that they would be meaningless. For the meaning of a word is formed and manifested by its repeated usage, and the vast majority of our eight-letter code words would be used only once or at any rate too rarely to acquire and express a definite meaning. It follows that a language must be poor enough to allow the same words to be used a sufficient number of times. We may call this the Law of Poverty.&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;From &lt;em&gt;Personal Knowledge&lt;/em&gt; by Michael Polanyi&lt;/p&gt;
+&lt;p&gt;From &lt;a href=&quot;https://www.amazon.com/Personal-Knowledge-Towards-Post-Critical-Philosophy/dp/0226672883&quot;&gt;&lt;em&gt;Personal Knowledge&lt;/em&gt;&lt;/a&gt; by Michael Polanyi&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/tower1.jpg&quot; alt=&quot;a cropped section of Pieter Bruegel the Elder&#39;s Tower of Babel&quot; /&gt;&lt;/p&gt;
 
@@ -53,7 +46,9 @@
 
 &lt;p&gt;In the absence of such advanced skullware, postal workers will use the what3words app to convert each three letter address to a pair of latitude and longitude coordinates, but knowing where a package should end up is very different from knowing how one should deliver it. The claim that what3words will “make it easy to discover an address, communicate it and deliver to it” is two-thirds true at best. Every what3words address will need to be translated one more time, from its coordinate location to some route-based expression of its position. In other words, the three word code that what3words calls “an address” still needs to be converted to what the rest of us call “an address.”&lt;/p&gt;
 
-&lt;p&gt;Addressing is an information technology, and a relatively new one. &lt;a href=&quot;http://query.nytimes.com/mem/archive-free/pdf?res=9803EEDB1139E433A25755C1A9619C94699ED7CF&quot; title=&quot;THE NUMBERING OF HOUSES&quot;&gt;Only in 1805 did London begin to enforce numbers,&lt;/a&gt; which replaced ad-hoc descriptions that mingled districts, nearby landmarks, and physical traits. Different places have developed different methods of indexing buildings, but none, to my knowledge, has been so rash as to give every spot along the ground a nickname and call it a day. Each addressing system worth the name includes some scalar component: Usually it is the distance along a route (as in the modern U.S. convention) but sometimes it indicates relative sequence of a building’s construction. Either way, the number reflects the location’s position along some continuous scale, whether space or time. In the system recently adopted by mostly rural West Virginia, the house numbers increment by one every 5.28 feet along the road, or every thousandth of a mile. On St. Croix in the U.S. Virgin Islands, the house numbers increase with distance from the towns of Frederiksted and Christiansted. Japan somehow gets by with addresses that refer to numbered blocks surrounded by unnamed streets, but their addresses at least observe a scaled hierarchy of coarse-to-fine identifiers.&lt;/p&gt;
+&lt;p&gt;Addressing is an information technology, and a relatively new one. &lt;a href=&quot;http://query.nytimes.com/mem/archive-free/pdf?res=9803EEDB1139E433A25755C1A9619C94699ED7CF&quot; title=&quot;THE NUMBERING OF HOUSES&quot;&gt;Only in 1805 did London begin to enforce numbers,&lt;/a&gt; which replaced ad-hoc descriptions that mingled districts, nearby landmarks, and physical traits (&lt;a href=&quot;https://regencyredingote.wordpress.com/2012/02/10/on-the-numbering-of-houses/&quot;&gt;more background here&lt;/a&gt;). Legible addresses don’t impose themselves through some emergent process of spontaneous cooperation; they need to be imposed by some central authority, and they typically meet resistance, whether in &lt;a href=&quot;https://books.google.com/books?id=tD1AupO0vvoC&amp;amp;lpg=PA26&amp;amp;ots=jkXZWtS10d&amp;amp;dq=walter%20benjamin%20house%20numbering%20france&amp;amp;pg=PA26#v=onepage&amp;amp;q&amp;amp;f=false&quot;&gt;nineteenth century France&lt;/a&gt; or in &lt;a href=&quot;http://www.tandfonline.com/doi/abs/10.1080/00045608.2011.620503&quot;&gt;twenty first century West Virginia&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Different places have developed different methods of indexing buildings, but none, to my knowledge, has been so rash as to give every spot along the ground a nickname and call it a day. Each addressing system worth the name includes some scalar component: Usually it is the distance along a route (as in the modern U.S. convention) but sometimes it indicates relative sequence of a building’s construction. Either way, the number reflects the location’s position along some continuous scale, whether space or time. In the system recently adopted by mostly rural West Virginia, the house numbers increment by one every 5.28 feet along the road, or every thousandth of a mile. On St. Croix in the U.S. Virgin Islands, the house numbers increase with distance from the towns of Frederiksted and Christiansted. Japan somehow gets by with addresses that refer to numbered blocks surrounded by unnamed streets, but their addresses at least observe a scaled hierarchy of coarse-to-fine identifiers.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/tokyo.png&quot; alt=&quot;a Google Maps representation of Tokyo&quot; /&gt;&lt;/p&gt;
 
