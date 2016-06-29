@@ -9,5 +9,7 @@ http://mwfrost.github.io/rss.xml
 http://mwfrost.github.io/sitemap.txt
 http://mwfrost.github.io/tags
 
+http://mwfrost.github.io/lessons/jekyll-introduction-draft
+http://mwfrost.github.io/draft.2016-06-23-space-is-scalar
 http://mwfrost.github.io/coal_retirement_plan
 http://mwfrost.github.io/an-old-manuscript
