@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Space Is Scalar
+date: 2016-06-29
 ---
 Reflections on a geospatial referencing tool.
 
