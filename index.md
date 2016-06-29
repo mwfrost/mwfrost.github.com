@@ -37,7 +37,7 @@ tagline: Analysis and Communication
       <p>Hosted at <a href="https://keybase.io/mattfrost">keybase.io/mattfrost</a> or <a href="/assets/mwfrost_public_key.txt">here.</a></p>
       <h3>Writing</h3>
       {% for post in site.posts %}
-        <li><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a>&nbsp;{{ post.excerpt }}</li>
+        <li><a href="{{ BASE_PATH }}{{ post.url }}.html">{{ post.title }}</a>&nbsp;{{ post.excerpt }}</li>
       {% endfor %}
     </div>
 </div>
