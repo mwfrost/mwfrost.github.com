@@ -28,14 +28,16 @@ tagline: Analysis and Communication
     </article>
   </div>
   <div class="col-md-6">
+      <h3>An Article</h3>
+    <h4><a href="https://www.thenewatlantis.com/publications/after-climate-despair">&ldquo;After Climate Despair&rdquo;</a></h4>
       <h3>Presentations</h3>
       <h4><a href="/r_slides/">&ldquo;Stop Clicking, Start Typing:&rdquo; an introduction to scripted analysis</a></h4>
       <a href="/r_slides/"><img src="/assets/slide_title.png" alt="Title Slide from R Tutorial"></a>
       <h3>My Resume</h3>
-      <p>I am a professional data analyst serving the US federal government as a contractor, specializing in energy and environmental policy and economics. My resume is available as a pdf <a href="/assets/MattFrostResume.pdf">here.</a></p>
+      <p>I am a technologist serving the US federal government, specializing in energy and environmental policy and economics. My resume is available as a pdf <a href="/assets/MattFrostResume.pdf">here.</a></p>
       <h3>My Public Key</h3>
       <p>Hosted at <a href="https://keybase.io/mattfrost">keybase.io/mattfrost</a> or <a href="/assets/mwfrost_public_key.txt">here.</a></p>
-      <h3>Writing</h3>
+      <h3>Other Writing</h3>
       {% for post in site.posts %}
         <li><a href="{{ BASE_PATH }}{{ post.url }}.html">{{ post.title }}</a>&nbsp;{{ post.excerpt }}</li>
       {% endfor %}

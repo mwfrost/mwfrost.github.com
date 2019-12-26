@@ -55,7 +55,7 @@ A national or international cap-and-trade system appeals to those who enjoy swee
 
 #### The role of the BLM
 
-![A dragline working in the Powder River Basin]({{ site.url }}/assets/blm.jpeg)
+![A dragline working in the Powder River Basin](/assets/blm.jpeg)
 
 <p class="caption">A dragline working in the Powder River Basin: BLM</p>
 

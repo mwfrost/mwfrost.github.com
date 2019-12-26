@@ -6,24 +6,24 @@ date: 2016-06-29
 Reflections on a geospatial referencing tool.
 
 <!--more-->
-![a cropped section of Pieter Bruegel the Elder's Tower of Babel]({{ site.url }}/assets/tower4.jpg)
+![a cropped section of Pieter Bruegel the Elder's Tower of Babel](/assets/tower4.jpg)
 
 &#10019; _Suppose you wanted to improve a language by increasing its richness indefinitely. We can get an idea of the enormous number of printed or written words that could be formed by different combinations of phonemes or letters, by envisaging the fact that from an alphabet of 23 letters we could construct 23^8^, i.e. about one hundred thousand million eight letter code words. This should allow us to replace each different sentence ever printed in the English language by different printed words so that this codeword (which would function as a verb) would cover what the sentence asserts. This millionfold enrichment of the English language would completely destroy it; not only because nobody could remember so many words, but for the more important reason that they would be meaningless. For the meaning of a word is formed and manifested by its repeated usage, and the vast majority of our eight-letter code words would be used only once or at any rate too rarely to acquire and express a definite meaning. It follows that a language must be poor enough to allow the same words to be used a sufficient number of times. We may call this the Law of Poverty._  
 
 From [_Personal Knowledge_](https://www.amazon.com/Personal-Knowledge-Towards-Post-Critical-Philosophy/dp/0226672883) by Michael Polanyi
 
-![a cropped section of Pieter Bruegel the Elder's Tower of Babel]({{ site.url }}/assets/tower1.jpg )
+![a cropped section of Pieter Bruegel the Elder's Tower of Babel](/assets/tower1.jpg )
 
 
 &#10019; _The nurse takes your blood pressure. "It's hint.risks over soda.handed." "What was it last time?" you ask. "It was wedge.goad over year.critic." You use a pocket-sized computer, the one you take pictures and read the news with, to translate the code into millimeters of mercury and notice with relief that the second pair of numbers is slightly lower than the first._
 
 
-![a cropped section of Pieter Bruegel the Elder's Tower of Babel]({{ site.url }}/assets/tower3.jpg )
+![a cropped section of Pieter Bruegel the Elder's Tower of Babel](/assets/tower3.jpg )
 
 
 &#10019; _A police officer pulls you over. "Do you have any idea how fast you were going?" You think back to the words your dashboard was showing you a moment ago. "Definitely no faster than themes.tantrum," you suggest. The police officer whips off a pair of sunglasses and hisses "I clocked you at mini.intervals!" Both of you pause as you use your phone to convert that pair of words into miles per hour, and you slump in chagrin._
 
-![a screenshot of Google Streetview from Ulaanbaatar]({{ site.url }}/assets/yurts.png )
+![a screenshot of Google Streetview from Ulaanbaatar](/assets/yurts.png )
 
 &#10019; _Mongol Post is the country’s largest postal service provider, with 900 employees serving more than 3 million citizens, 30% of whom are nomadic, roaming an area of more than 1.5 million square kilometres. As a rapidly emerging market, Mongolia needs a functioning address system to sustain its economic development and attract investment. what3words is a multi-award winning location reference system based on a global grid of 57 trillion 3 metre x 3 metre squares. Each square has been pre-assigned a fixed and unique 3 word address. The system is available as a mobile app or API integration and works both online and offline. It makes it easy to discover an address, communicate it and deliver to it._
 
@@ -39,7 +39,7 @@ Addressing is an information technology, and a relatively new one. [Only in 1805
 
 Different places have developed different methods of indexing buildings, but none, to my knowledge, has been so rash as to give every spot along the ground a nickname and call it a day. Each addressing system worth the name includes some scalar component: Usually it is the distance along a route (as in the modern U.S. convention) but sometimes it indicates relative sequence of a building's construction. Either way, the number reflects the location's position along some continuous scale, whether space or time. In the system recently adopted by mostly rural West Virginia, the house numbers increment by one every 5.28 feet along the road, or every thousandth of a mile. On St. Croix in the U.S. Virgin Islands, the house numbers increase with distance from the towns of Frederiksted and Christiansted. Japan somehow gets by with addresses that refer to numbered blocks surrounded by unnamed streets, but their addresses at least observe a scaled hierarchy of coarse-to-fine identifiers.
 
-![a Google Maps representation of Tokyo]({{ site.url }}/assets/tokyo.png )
+![a Google Maps representation of Tokyo](/assets/tokyo.png )
 
 An addressing system is successful insofar as it enables us to execute the suite of cognitive tasks that constitute navigation. Associating a destination with its location on the earth is only one of these chores.
 
